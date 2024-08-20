@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/Css/Landestilo.css" />
+    <link rel="stylesheet" href="assets/Css/Landrespon.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      id="close-menu"
+      class="close-menu"
+      aria-label="close menu"
+      role="button"
+    />
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false">
+          <a href="#home">LOGO</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#grid-one">Grid-One</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#grid-two">Grid-Two</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="main-spacing"></div>
+
+    <section id="home" class="home main-bg section">
+      <div class="main-content home-content">
+        <div class="home-text-content">
+          <h2>January brings us firefox 85</h2>
+          <p>
+            At Mozilla, we believe you have a right to privacy. You shouldn’t be
+            tracked online. Whether you are checking your bank balance, looking
+            for the best doctor, or shopping for shoes, unscrupulous tracking
+            companies should not be able to track you as you browse the Web. For
+            that reason, we are continuously working to harden Firefox against
+            online tracking of our users.
+          </p>
+        </div>
+        <div class="home-img">
+          <img
+            src="./assets/Img/javascript-not-optimized.svg"
+            alt="Logo de HTML, CSS e JS"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content intro-content">
+        <h2>Top 3 jobs</h2>
+        <p>
+          We take the long view of our connections and interactions, both with
+          each other and with the people who use our products. This requires a
+          commitment to empathy, active listening and giving without the
+          expectation of getting. It’s digging in to understand what makes
+          people tick and caring about that.
+        </p>
+        <p>
+          Transparent and open processes are a unique part of our genetic code.
+          When coupled with responsible participation — being generous and kind
+          with both our inputs and our outputs — we create trust and
+          accountability and elevate the quality of our decisions.
+        </p>
+        <p>
+          We are here to do hard things, take on giants and make a difference in
+          people’s online lives — so we must have grit. Having grit means facing
+          obstacles with optimism.
+        </p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem impedit accusamus, nam, repudiandae itaque illo quam
+              excepturi sint nulla dolorem autem temporibus quibusdam debitis
+              est blanditiis sequi dolores natus exercitationem.
+            </p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut,
+              accusantium repudiandae corrupti excepturi ratione dignissimos est
+              numquam libero vitae quos sed doloremque reiciendis cupiditate
+              commodi earum labore esse veniam?
+            </p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              error iusto vel incidunt illum quaerat, totam ab reiciendis facere
+              fugiat vero, eaque fuga distinctio tenetur voluptatem earum,
+              labore dolore eum!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/2065674519/pt/foto/rolling-says-macro.webp?b=1&s=170667a&w=0&k=20&c=MnRs6D99GL2rDWRFxnAjO93kD6xfkt-9dYmVkiD6DoQ="
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/477569935/pt/foto/oportunidade-aumento-e-a-melhoria-conceito.webp?b=1&s=170667a&w=0&k=20&c=9GnkC_RQ4shEa9dUwc1RhgFxQD6ERsDJ1QvxxefxxJU="
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/175482570/pt/foto/pr%C3%A9mio-roda.webp?b=1&s=170667a&w=0&k=20&c=lhzRbiExYYJ3ZkAO8F2OixOM8UakdsBRHq2Jm9m8qTY="
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/1364371014/pt/foto/risk-management-and-mitigation-to-reduce-exposure-for-financial-investment-projects.webp?b=1&s=170667a&w=0&k=20&c=tb3U_Xpu-n4Dniroh51ocy7JyLeLRBHCm1J79wmHrDM="
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/95442265/pt/foto/lotaria.webp?b=1&s=170667a&w=0&k=20&c=gO8xn49EnoJH8XcLTW97vGuJH_5vvg5VmOvjO4NvhQg="
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://media.istockphoto.com/id/637732250/pt/foto/group-of-black-and-white-lottery-balls.webp?b=1&s=170667a&w=0&k=20&c=opiSqN2njLBdtxTt4xSAuhCOXDtnMMTfIwOR_7eu_UI="
+              alt="random image from unsplash"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem impedit accusamus, nam, repudiandae itaque illo quam
+              excepturi sint nulla dolorem autem temporibus quibusdam debitis
+              est blanditiis sequi dolores natus exercitationem.
+            </p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut,
+              accusantium repudiandae corrupti excepturi ratione dignissimos est
+              numquam libero vitae quos sed doloremque reiciendis cupiditate
+              commodi earum labore esse veniam?
+            </p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              error iusto vel incidunt illum quaerat, totam ab reiciendis facere
+              fugiat vero, eaque fuga distinctio tenetur voluptatem earum,
+              labore dolore eum!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+      <div class="main-content intro-content">
+        <h2>Pricing</h2>
+        <p>
+          We take the long view of our connections and interactions, both with
+          each other and with the people who use our products. This requires a
+          commitment to empathy, active listening and giving without the
+          expectation of getting. It’s digging in to understand what makes
+          people tick and caring about that.
+        </p>
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing table
+            </caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Price</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="home main-bg section">
+      <div class="main-content home-content">
+        <div class="home-text-content">
+          <h2>Need help or want to leave feedback?</h2>
+        </div>
+        <div class="home-img">
+          <img
+            src="./assets/Img/contact-not-optimized.svg"
+            alt="Logo de HTML, CSS e JS"
+          />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Your last name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your e-mail"
+              />
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea
+                name="mssage"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit">Send Message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>Feito por um Corinthiano 🦅 <b>Hiago Gimenez</b> 💪</p>
+    </footer>
+
+    <a href="#" class="back-to-top">🡱</a>
+  </body>
+</html>
